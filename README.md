@@ -18,6 +18,8 @@ Skal I have mulighed for at skrive med print og println som med PrintStream, ska
       BufferedWriter bw = new BufferedWriter(fw);
       PrintWriter output = new PrintWriter(bw);
       output.println("Test af append");
+      output.flush();
+      output.close();
   }  
   catch( IOException e ){
       System.out.println("Fejl ved skrivning: " + e);
