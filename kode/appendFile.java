@@ -6,9 +6,13 @@ public class appendFile
   {
    try
    {
+      //lav filobjekt
       FileWriter fw = new FileWriter("minFil.txt", true);
-      BufferedWriter bw = new BufferedWriter(fw);
-      PrintWriter output = new PrintWriter(bw);
+      //lav buffer, da der ellers bliver skrevet med det samme.
+      //Det kan være dyrt i forhold til at gemme i buffer.
+      //BufferedWriter bw = new BufferedWriter(fw);
+      //lav Printobjekt
+      PrintWriter output = new PrintWriter(fw);
       output.println("Test af append");
       output.flush();
       output.close();
