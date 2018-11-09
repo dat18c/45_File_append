@@ -1,6 +1,10 @@
 # 45_File_append
 Dagens Java-pensum er try/catch og append (tilføj) til filer.
 
+Try/catch består af en try og en catch block. Usikker kode forsøges kørt i try-blokken. Kastes der en expection under udførelsen af try-blokken, bliver catch-blokken udført.
+
+Catch-blokken kan inddeles efter hvilken fejl der skal håndteres. Når vi håndterer exepctions med try/catch , behøver vi ikke at erklære metoderne med throws.
+
 Append til filer betyder, at der skriver videre for enden af filen. Ekstra tekst bliver altså tilføjet i stedet for at overskrive filen.
 
 FileWriter kan instantieres, så den tilføjer til filen ved at give den parameteret true.
