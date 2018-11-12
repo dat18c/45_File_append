@@ -25,3 +25,10 @@ Skal I have mulighed for at skrive med print og println som med PrintStream, ska
       System.out.println("Fejl ved skrivning: " + e);
   }
   ``````
+  
+  
+  Random Access File gør det muligt at skrive og læse på en given lokation.
+  Det er lidt til den avancerede side, så det er kun en ekstra challenge, hvis I har godt styr på read og write.
+  
+  http://tutorials.jenkov.com/java-io/randomaccessfile.html
+  
